@@ -1,11 +1,11 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import Icon from 'react-native-vector-icons/Ionicons';
+import IonIcon from "./ionIcons";
 
 export default function SearchButton() {
     return <>
         <View style={styles.searchButton}>
-            <Icon name={"search-sharp"} size={18} style={styles.searchIcon}/>
+            <IonIcon name={"search-sharp"} size={18} />
         </View>
     </>
 }

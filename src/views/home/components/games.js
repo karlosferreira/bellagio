@@ -1,36 +1,60 @@
 import React from "react";
-import { ScrollView, StyleSheet } from "react-native";
+import { FlatList, ScrollView, StyleSheet, View } from "react-native";
 
 import Item from "../../components/item";
 
 import blackjackCover from "../../../assets/covers/blackjack.jpg";
 import jackpotCover from "../../../assets/covers/jackpot.jpg";
+import slotsCover from "../../../assets/covers/slots.jpg";
+import dicesCover from "../../../assets/covers/dices.jpeg";
+import roletaCover from "../../../assets/covers/roleta.jpg";
+import rocketCover from "../../../assets/covers/rocket.jpg";
+import wheelCover from "../../../assets/covers/wheel.jpg";
 
-const images = [
+const data = [
     {
-        alt: 'blackjack',
+        title: '21',
         img: blackjackCover
     },
     {
-        alt: 'jackpot',
+        title: 'Slots',
+        img: slotsCover
+    },
+    {
+        title: 'Dices',
+        img: dicesCover
+    },
+    {
+        title: 'Roleta',
+        img: roletaCover
+    },
+    {
+        title: 'Rocket',
+        img: rocketCover
+    },
+    {
+        title: 'Jackpot',
         img: jackpotCover
-    }
+    },
+    {
+        title: 'Furtune Weel',
+        img: wheelCover
+    },                                                                          
 ]
 
 export default function Games() {
     return <>
-        <ScrollView 
-        showsVerticalScrollIndicator={false} >
-            <Item title={"21"} img={images[0].img} />
-            <Item title={"Slot"} img={images[1].img} />
-            <Item title={"Dices"} img={images[0].img} />
-            <Item title={"Lucky Wheel"} img={images[1].img} />
-            <Item title={"Roulette"} img={images[0].img} />
-            <Item title={"Farmer"} img={images[1].img} />
-            <Item title={"Rocket"} img={images[0].img} />
-            <Item title={"Heads or Tails"} img={images[1].img} />
-            <Item title={"Wheel to Wheel"} img={images[0].img} />
-        </ScrollView>
+        <FlatList
+            showsVerticalScrollIndicator={false}
+            data={data}
+            numColumns={2}
+
+            renderItem={
+                ({item}) => <>
+                    <Item title={item.title} img={item.img} />
+                </>
+            }
+        />
     </>
 }
 

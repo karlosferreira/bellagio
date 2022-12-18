@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff'
   },
   body: {
-    backgroundColor: "#f0f0f0"
+    backgroundColor: "#e9e9e9",
+    flex: 1,
   }
 });

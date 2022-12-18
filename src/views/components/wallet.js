@@ -1,12 +1,12 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Icon from 'react-native-vector-icons/Entypo';
+import EntypoIcon from "./entypo";
 
 
 export default function WalletButton() {
     return <>
         <View style={styles.walletButton}>
-            <Icon name="circle-with-plus" size={18} style={styles.walletIcon}/>
+            <EntypoIcon name={"circle-with-plus"} size={18} stylesheet={styles.walletIcon} />
             <Text style={styles.walletAmount}>0 R$</Text>
         </View>
     </>
