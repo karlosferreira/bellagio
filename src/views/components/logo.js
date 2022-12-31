@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text } from "react-native";
 
 export default function Logo({title, sub}) {
     return <>
@@ -11,21 +11,21 @@ export default function Logo({title, sub}) {
 const styles = StyleSheet.create({
     logoTitle: {
         color: '#fff',
-        fontSize: 18,
-        padding: 7,
+        fontSize: 19,
+        lineHeight: 25,
         paddingRight: 0,
-        letterSpacing: -0.3,
+        letterSpacing: 0.5,
         textAlign: 'center',
-        fontFamily: 'RussoOne-Regular',
+        fontFamily: 'Righteous-Regular',
     },
     logoSub: {
         color: '#fff',
-        fontSize: 18,
-        padding: 7,
+        fontSize: 19,
+        lineHeight: 25,
         paddingLeft: 0,
-        letterSpacing: -0.3,
+        letterSpacing: 0.5,
         textAlign: 'center',
-        fontFamily: 'RussoOne-Regular',
+        fontFamily: 'Righteous-Regular',
     },
     logoTitleDark: {
         color: '#16537e',

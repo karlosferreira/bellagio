@@ -1,19 +1,20 @@
 import React from "react";
 
-import { Image, StyleSheet, Text, View } from "react-native";
-import IonIcon from "./ionIcons";
+import { Image, StyleSheet, Text, TouchableHighlight, View } from "react-native";
 import EntypoIcon from "./entypo";
 
 export default function Item({title, img}) {
     return <>
         <View style={styles.item}>
-            <Image source={img} style={styles.itemCover} />
+            <TouchableHighlight>
+                <Image source={img} style={styles.itemCover} />
+            </TouchableHighlight>
             <View style={styles.info}>
                 <View style={styles.container}>
                     <Text style={styles.gameName}>{title}</Text>
-                    <View style={{position: "absolute", right: 3.5, bottom: 0}}>
+                    <TouchableHighlight style={styles.btnArea}>
                         <EntypoIcon name={"dots-three-vertical"} />
-                    </View>
+                    </TouchableHighlight>
                 </View>
             </View>
         </View>    
@@ -22,19 +23,18 @@ export default function Item({title, img}) {
 
 const styles = StyleSheet.create({
     item: {
-        width: 145,
-        height: 90,
-        margin: 5,
+        width: "47%",
+        height: 110,
         marginBottom: 28,
-        backgroundColor: "#ffffff",
         borderTopLeftRadius: 7,
         borderTopRightRadius: 7,
+        marginLeft: "auto",
+        marginRight: "auto",
     },
     itemCover: {
-        width: 145,
-        height: 90,
+        width: "100%",
+        height: 100,
         resizeMode: "cover",
-        backgroundColor: "#000",
         borderTopLeftRadius: 7,
         borderTopRightRadius: 7,
     },
@@ -42,16 +42,25 @@ const styles = StyleSheet.create({
         backgroundColor: "#fff",
         borderBottomLeftRadius: 7,
         borderBottomRightRadius: 7,
+        paddingVertical: 3
     },
     container: {
-        width: "95%",
+        width: "97%",
         marginLeft: "auto",
         marginRight: "auto",
-        padding: 4,
-        paddingTop: 1.5,
         flexDirection: "row",
+        paddingVertical: 0.3,
     },
     gameName: {
-        fontSize: 12,
+        fontFamily: "Poppins-Regular",
+        lineHeight: 20,
+        paddingLeft: 4,
+        paddingTop: 2
+    },
+    btnArea: {
+        position: "absolute",
+        right: 1.5, 
+        bottom: 4.5, 
+        paddingHorizontal: 4,
     }
 });

@@ -18,6 +18,9 @@
 		7AE645036EA7458B9BEFA0D5 /* Anton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC5DFAD424B4B199E4340A4 /* Anton-Regular.ttf */; };
 		5F185B851C8C49AFB0241617 /* ZenDots-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2E913FCFCD247B08BB7D4C5 /* ZenDots-Regular.ttf */; };
 		D2FA04AB3FB34A999724022D /* RussoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 275E8CE5206D4285A4DE6DB9 /* RussoOne-Regular.ttf */; };
+		51150B4B8D9C462A9CB5C338 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2657A6E4ACC34087831E9DBC /* Lobster-Regular.ttf */; };
+		B014A62606E1499DAE79FC07 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D567790ADD647079132598D /* Poppins-Regular.ttf */; };
+		D9601F7A2DFE402F904602CD /* Righteous-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8EC0322095241E7AEF63308 /* Righteous-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		5DC5DFAD424B4B199E4340A4 /* Anton-Regular.ttf */ = {isa = PBXFileReference; name = "Anton-Regular.ttf"; path = "../src/assets/fonts/Anton-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		D2E913FCFCD247B08BB7D4C5 /* ZenDots-Regular.ttf */ = {isa = PBXFileReference; name = "ZenDots-Regular.ttf"; path = "../src/assets/fonts/ZenDots-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		275E8CE5206D4285A4DE6DB9 /* RussoOne-Regular.ttf */ = {isa = PBXFileReference; name = "RussoOne-Regular.ttf"; path = "../src/assets/fonts/RussoOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2657A6E4ACC34087831E9DBC /* Lobster-Regular.ttf */ = {isa = PBXFileReference; name = "Lobster-Regular.ttf"; path = "../src/assets/fonts/Lobster-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D567790ADD647079132598D /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8EC0322095241E7AEF63308 /* Righteous-Regular.ttf */ = {isa = PBXFileReference; name = "Righteous-Regular.ttf"; path = "../src/assets/fonts/Righteous-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,9 @@
 				5DC5DFAD424B4B199E4340A4 /* Anton-Regular.ttf */,
 				D2E913FCFCD247B08BB7D4C5 /* ZenDots-Regular.ttf */,
 				275E8CE5206D4285A4DE6DB9 /* RussoOne-Regular.ttf */,
+				2657A6E4ACC34087831E9DBC /* Lobster-Regular.ttf */,
+				8D567790ADD647079132598D /* Poppins-Regular.ttf */,
+				E8EC0322095241E7AEF63308 /* Righteous-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -269,6 +278,9 @@
 				7AE645036EA7458B9BEFA0D5 /* Anton-Regular.ttf in Resources */,
 				5F185B851C8C49AFB0241617 /* ZenDots-Regular.ttf in Resources */,
 				D2FA04AB3FB34A999724022D /* RussoOne-Regular.ttf in Resources */,
+				51150B4B8D9C462A9CB5C338 /* Lobster-Regular.ttf in Resources */,
+				B014A62606E1499DAE79FC07 /* Poppins-Regular.ttf in Resources */,
+				D9601F7A2DFE402F904602CD /* Righteous-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

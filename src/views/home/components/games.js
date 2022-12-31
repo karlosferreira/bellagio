@@ -1,5 +1,5 @@
 import React from "react";
-import { FlatList, ScrollView, StyleSheet, View } from "react-native";
+import { FlatList, StyleSheet } from "react-native";
 
 import Item from "../../components/item";
 
@@ -39,7 +39,63 @@ const data = [
     {
         title: 'Furtune Weel',
         img: wheelCover
-    },                                                                          
+    },    
+    {
+        title: '21',
+        img: blackjackCover
+    },
+    {
+        title: 'Slots',
+        img: slotsCover
+    },
+    {
+        title: 'Dices',
+        img: dicesCover
+    },
+    {
+        title: 'Roleta',
+        img: roletaCover
+    },
+    {
+        title: 'Rocket',
+        img: rocketCover
+    },
+    {
+        title: 'Jackpot',
+        img: jackpotCover
+    },
+    {
+        title: 'Furtune Weel',
+        img: wheelCover
+    },
+    {
+        title: '21',
+        img: blackjackCover
+    },
+    {
+        title: 'Slots',
+        img: slotsCover
+    },
+    {
+        title: 'Dices',
+        img: dicesCover
+    },
+    {
+        title: 'Roleta',
+        img: roletaCover
+    },
+    {
+        title: 'Rocket',
+        img: rocketCover
+    },
+    {
+        title: 'Jackpot',
+        img: jackpotCover
+    },
+    {
+        title: 'Furtune Weel',
+        img: wheelCover
+    },
 ]
 
 export default function Games() {

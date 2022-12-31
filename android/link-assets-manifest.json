@@ -6,8 +6,20 @@
       "sha1": "49243712633711db3b673d0b03536e0180cd7ddb"
     },
     {
+      "path": "src/assets/fonts/Lobster-Regular.ttf",
+      "sha1": "120c751cd7a77174037c2409ab883ef7efc5edbb"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
       "path": "src/assets/fonts/Rancho-Regular.ttf",
       "sha1": "7aaa99b3b58577825519fecdcdfac04fee51a5fb"
+    },
+    {
+      "path": "src/assets/fonts/Righteous-Regular.ttf",
+      "sha1": "3129e2b47e224dec082c4169b396b1fa27a95749"
     },
     {
       "path": "src/assets/fonts/RussoOne-Regular.ttf",

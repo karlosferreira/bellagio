@@ -11,7 +11,9 @@ export default function Home() {
     <View style={styles.header}>
       <Header />
     </View>
-    <Filters />
+    <View style={styles.filters}>
+      <Filters />
+    </View>
     <Games />
     <Footer />
   </SafeAreaView>
@@ -20,10 +22,13 @@ export default function Home() {
 const styles = StyleSheet.create({
   header: {
     width: '100%',
-    backgroundColor: '#ffffff'
+    backgroundColor: '#ffffff',
+    borderBottomWidth: 0.4,
+    borderColor: "rgba(0,0,0,0.3)",
   },
   body: {
-    backgroundColor: "#e9e9e9",
+    backgroundColor: "#e8e8e8",
     flex: 1,
-  }
+  },
+  filters: {  }
 });
