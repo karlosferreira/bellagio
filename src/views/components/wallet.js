@@ -16,20 +16,20 @@ export default function WalletButton() {
 
 const styles = StyleSheet.create({
     walletIcon: {
-        color: "#47c211"
+        color: "#47c211",
     },
     walletButton: {
         flexDirection: "row",
-        backgroundColor: "#f5f5f5",
+        backgroundColor: "#eee",
         position: "absolute",
         left: 0,
-        bottom: 11,
+        bottom: 15,
         borderRadius: 20,
     },
     walletAmount: {
         fontWeight: "500",
         paddingLeft: 5,
         paddingRight: 8,
-        lineHeight: 20.8,
+        lineHeight: 21,
     }
 });

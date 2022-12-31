@@ -23,8 +23,8 @@ export default function Item({title, img}) {
 
 const styles = StyleSheet.create({
     item: {
-        width: "47%",
-        height: 110,
+        width: "46%",
+        height: 114,
         marginBottom: 28,
         borderTopLeftRadius: 7,
         borderTopRightRadius: 7,
@@ -52,10 +52,10 @@ const styles = StyleSheet.create({
         paddingVertical: 0.3,
     },
     gameName: {
-        fontFamily: "Poppins-Regular",
         lineHeight: 20,
         paddingLeft: 4,
-        paddingTop: 2
+        paddingTop: 0,
+        fontSize: 15
     },
     btnArea: {
         position: "absolute",

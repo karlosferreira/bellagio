@@ -14,6 +14,6 @@ const styles = StyleSheet.create({
     darkModToggle: {
         position: "absolute",
         right: 0,
-        bottom: 11
+        bottom: 15
     }
 });

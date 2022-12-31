@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     tagList: {
         flexDirection: "row",
         paddingLeft: 7,
-        marginTop: 7,
-        marginBottom: 9,
+        marginTop: 8.5,
+        marginBottom: 13.5,
     }
 });

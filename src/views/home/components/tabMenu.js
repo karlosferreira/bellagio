@@ -25,6 +25,7 @@ export default function TabMenu({style}) {
 
 const styles = StyleSheet.create({
     btnFooter: {
-        marginHorizontal: 6
+        marginHorizontal: 6.5,
+        paddingTop: 2
     }
 })

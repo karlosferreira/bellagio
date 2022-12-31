@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         marginLeft: 'auto',
         marginRight: 'auto',
         width: "95%",
-        padding: 10.5,
+        padding: 14,
         justifyContent: "center"
     }
 })
